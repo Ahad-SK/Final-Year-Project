@@ -1,3 +1,5 @@
-yfinance
+Yfinance
 numpy
 prophet
+plotly
+datetime
