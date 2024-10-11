@@ -10,7 +10,7 @@ from plotly import graph_objs as grph
 start= '2014-01-01'
 end = date.date.today().strftime("%Y-%m-%d") 
 
-st.title("Stock Future Price Prediction Web App")
+st.title("Stockyy: The Price Predictor")
 stocks = ('GOOG', 'AAPL', 'MSFT', 'GME', 'NVDA')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
 years = st.slider('Years of prediction:', 1, 10)
